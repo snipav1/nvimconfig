@@ -10,8 +10,6 @@ set rnu nu
 filetype off
 filetype plugin indent on
 call plug#begin('~/.config/nvim/autoload/plugged')
-
-    Plug 'VundleVim/Vundle.vim'
     Plug 'klen/python-mode'
     Plug 'Chiel92/vim-autoformat'
     Plug 'tpope/vim-fugitive'
@@ -27,11 +25,11 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'kien/ctrlp.vim'
     Plug 'vim-airline/vim-airline'
     Plug 'morhetz/gruvbox'
-
+    Plug 'sickill/vim-monokai'
+	Plug 'heavenshell/vim-pydocstring', { 'do': 'make install' }
 call plug#end()
-
 syntax enable
-colorscheme gruvbox
+colorscheme monokai
 set background=dark
 imap jj <Esc>
 let mapleader = " "
