@@ -20,6 +20,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'scrooloose/syntastic'
     Plug 'valloric/youcompleteme'
     Plug 'tpope/vim-surround'
+    Plug 'tpope/vim-repeat'
     Plug 'airblade/vim-gitgutter'
     Plug 'scrooloose/nerdcommenter'
     Plug 'kien/ctrlp.vim'
