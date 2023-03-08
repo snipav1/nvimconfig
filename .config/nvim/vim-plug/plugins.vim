@@ -14,11 +14,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'Chiel92/vim-autoformat'
     Plug 'tpope/vim-fugitive'
     Plug 'blueshirts/darcula'
-    Plug 'davidhalter/jedi-vim'
     Plug 'ThePrimeagen/vim-be-good'
     Plug 'scrooloose/nerdtree'
     Plug 'scrooloose/syntastic'
-    Plug 'valloric/youcompleteme'
     Plug 'tpope/vim-surround'
     Plug 'tpope/vim-repeat'
     Plug 'airblade/vim-gitgutter'
@@ -27,7 +25,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'vim-airline/vim-airline'
     Plug 'morhetz/gruvbox'
     Plug 'sickill/vim-monokai'
-	Plug 'heavenshell/vim-pydocstring', { 'do': 'make install' }
 call plug#end()
 syntax enable
 colorscheme monokai
