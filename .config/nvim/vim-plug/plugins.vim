@@ -25,6 +25,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'vim-airline/vim-airline'
     Plug 'morhetz/gruvbox'
     Plug 'sickill/vim-monokai'
+	Plug 'github/copilot.vim'
 call plug#end()
 syntax enable
 colorscheme monokai
